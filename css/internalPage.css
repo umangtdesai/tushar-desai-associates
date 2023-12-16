@@ -1,0 +1,187 @@
+/*-------------------------CHANGES FOR LAB 8 PART 2--------------------------------*/
+/*
+Hover Behavior of text "Our Design Approach changed for so the background color becomes whitesmoke
+
+7 ADDITIONAL CHANGES:
+
+1. Our Design Approach is now underlined
+2. Bottom Margin reduced to 10px from 40px for .main-content .container-main .block-main
+3. Background Image added to match home page
+4. Padding set to 20px for aestheitcs for content-main
+5. All Margin set to 0px for content-main only
+6. Block quotes color changed to green
+7. Block quotes font size changed to medium
+
+ */
+
+
+
+/*-----------------------------------------------------------------------------------*/
+
+/*  -  Navbar fixd page
+/*-----------------------------------------------------------------------------------*/
+
+.subpage-nav {
+  display: block !important;
+  position: relative;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/*  /* Single page */
+
+/*-----------------------------------------------------------------------------------*/
+
+/* main content */
+
+
+.main-content {
+  background: #f7f7f7;
+  background: url("../images/b1.png") no-repeat center center fixed;
+  background-size: cover;
+  height: auto;
+  overflow: hidden;
+
+
+
+}
+
+.main-content .container-main {
+  display: inline-block;
+  width: 100%;
+}
+
+.main-content .container-main .block-main {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.container-main .block-main .content-main {
+  background: #fff none repeat scroll 0 0;
+  display: inline-block;
+  /*want width 120% somehow*/
+  width: 100%;
+}
+
+.content-main {
+  padding: 50px;
+  margin: 0px;
+}
+.journal-txt h4 a {
+  display: block;
+  font-size: 19px;
+  line-height: 24px;
+  margin: 0 0 13px 0;
+  font-weight: 500;
+  color: #292929;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.journal-txt h4 a:hover {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.post-meta ul li {
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-transform: capitalize;
+  display: inline-block;
+  float: none;
+}
+
+.content-main .post-meta a {
+  color: #a2a2a2;
+  margin-left: 5px;
+}
+
+/* Commonts */
+
+.comments {
+  background: #fff;
+}
+
+.entry-comments h6 {
+  margin-right: 10px;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+
+.entry-comments-item {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.entry-comments-avatar {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.entry-comments-body {
+  padding-left: 86px;
+}
+
+.entry-comments-author {
+  margin-right: 10px;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+
+.rep {
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.entry-comments span a {
+  font-size: 13px;
+  color: #999;
+}
+
+.entry-comments-reply {
+  padding-left: 10%;
+}
+
+/* Commonts form */
+
+.cmt {
+  background: #fff;
+}
+
+blockquote {
+  padding: 40px;
+  background-color: #f2f2f2;
+  margin: 30px 0;
+  border: none;
+  border-left: 4px solid #b8a07e;
+  color: darkgreen;
+  font-size: medium;
+}
+
+.requiredUnderline {
+  text-decoration: solid underline;
+}
+
+.toCenter {
+  position: center;
+  text-align: center;
+}

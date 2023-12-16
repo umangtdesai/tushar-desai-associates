@@ -1,0 +1,21 @@
+
+Name: Umang Desai
+Username: utdesai
+
+URL: http://cs-people.bu.edu/utdesai/index.html
+
+I have used a responsive CSS template, Folio, and modified it: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+
+WAVE shows 0 contrast errors in the website.
+
+
+JS toolkits provided by others:
+
+The home page uses typed which is a utility similar to typeit which we saw in class and the latter part of the home page uses owl carosuel which is used to display the different services my dad's company offers. These were provided in the template and I customized them to my own needs.
+
+I also, added Fromspree to the contact us form so we are able make the form into a working one as a backend database.
+
+
+JS coding feature:
+
+The current year in the footer autoupdates using the Date feature of JS. So, we would never have to go change the year, when a new year begins using a simple script tag.
